@@ -1,0 +1,20 @@
+dn: dc=example,dc=com
+objectClass: top
+objectClass: domain
+objectClass: extensibleObject
+dc: example
+
+dn: ou=users,dc=example,dc=com
+objectClass: top
+objectClass: organizationalUnit
+ou: users
+
+dn: cn=user1,ou=users,dc=example,dc=com
+objectClass: top
+objectClass: person
+objectClass: organizationalPerson
+objectClass: inetOrgPerson
+cn: user1
+sn: User1
+uid: user1
+userPassword: {SHA}nFCebWjxfaLbHHG1Qk5UU4trbvQ=
